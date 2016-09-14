@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  total: 1.5
+  data_pedido: 2016-09-13
+  cliente_id: 1
+
+two:
+  total: 1.5
+  data_pedido: 2016-09-13
+  cliente_id: 1
