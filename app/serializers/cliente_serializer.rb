@@ -5,7 +5,7 @@ class ClienteSerializer < BaseSerializer
   has_many :pedidos
   type :cliente
 
-  link :self do
-    href cliente_path(object)
-  end
+  link(:self) { cliente_path(object) }
+  link(:pedidos) { cliente_pedidos_path(object) }
+  #link(:pedidos) { pedidos_path(cliente_id: object.id) }
 end
